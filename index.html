@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JUNHEE</title>
+  <link href="./css/JUN.css" rel="stylesheet">
+  <!--구글 폰트-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/bc2ed4dd83.js" crossorigin="anonymous"></script>
+  <!--아이콘-->
+</head>
+
+<body>
+  <header>
+    <div class="inner">
+      <div class="header_con">
+        <div id="date" class="date">날짜</div>
+        <script>
+          function setClock() {
+            let dateInfo = new Date();
+            let year = dateInfo.getUTCFullYear();
+            let month = dateInfo.getMonth() + 1;
+            let date = dateInfo.getDate();
+            document.getElementById("date").innerHTML = year + "년" + month + "월" + date + "일";
+          }
+          window.onload = function () {
+            setClock();
+            setInterval(setClock, 1000);
+          }
+        </script>
+        <div class="menu">
+          <nav>
+            <a href="http://fasgu.synology.me/index.html">Home&nbsp;&nbsp;</a>
+            <a href="#about">About me&nbsp;&nbsp;</a>
+            <a href="#like">Favorite&nbsp;&nbsp;</a>
+            <a href="#want">Want&nbsp;&nbsp;</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <section class="main">
+    <div class="main_con">
+      <div class="inner">
+        <div class="title_con">
+          <div class="title">I am</div>
+          <div class="mess">제 이름은 송준희입니다!</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="intro">
+    <p>Let me introduce myself ʕ๑•̀ᴗ-ʔ</p>
+    <p>⇩</p>
+  </div>
+  <section>
+    <article id="about">
+      <div class="inner">
+        <div class="skill_con">
+          <table>
+            <caption id="skill_atitle">INTRODUCE</caption>
+            <caption id="skill_about">ABOUT ME</caption>
+            <thead>
+              <tr>
+                <th><i class="fa-solid fa-circle-user f_style"></i></th>
+                <th><i class="fa-solid fa-school f_style"></i></th>
+                <th><i class="fa-solid fa-crown f_style"></i></th>
+                <th><i class="fa-solid fa-medal f_style"></i></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr id="me_title">
+                <td>Profile</td><br><br>
+                <td>Career</td><br><br>
+                <td>Character</td><br><br>
+                <td>Certificate</td><br><br>
+              </tr>
+              <tr id="me_sub">
+                <td>이름: 송준희</td><br>
+                <td>하바 놀이학교 졸업</td><br>
+                <td>장점</td><br>
+                <td>SQLD</td><br>
+              </tr>
+              <tr id="me_sub">
+                <td>성별: 여</td><br>
+                <td><a href="http://jangbok-p.gne.go.kr/jangbok-p/main.do" target="_blank">장복초등학교</a> 졸업</td><br>
+                <td>끈기가 있고, 긍정적 사고</td><br>
+                <td>리눅스마스터 2급</td><br>
+              </tr>
+              <tr id="me_sub">
+                <td>생년월일: 2006.12.11</td><br>
+                <td><a href="http://seokdong-m.gne.go.kr/seokdong-m/main.do" target="_blank">석동중학교</a> 졸업</td><br>
+                <td>단점</td><br>
+                <td>정보처리산업기사</td><br>
+              </tr>
+              <tr id="me_sub">
+                <td>이메일: <a href="mailto:cgrace0612@gmail.com?subject=안녕하세요.">cgrace0612@gmail.com</a></td><br>
+                <td><a href="http://school.gyo6.net/gbsw" target="_blank">경북소프트웨어고등학교</a> 재학</td><br>
+                <td>욕심</td><br>
+                <td>정보처리기능사</td><br>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td><br></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section>
+    <article id="like">
+      <div class="inner">
+        <div class="l_con">
+          <div class="l_title">I LIKE ~</div><br><br>
+          <div class="l_img">
+            <img src="./img/judo.gif" alt="유도" width="150vw"></img>
+          </div>
+          <div class="li_title">&nbsp;유도🥋</div><br>
+          <div class="li_subtitle">&nbsp;중3 때 체력이 너무 부족해서 시작한 운동이였지만<br>
+            &nbsp;지금은 유도를 하는 시간이 가장 좋아하는 시간이 되었다.</div><br><br>
+          <div class="l_img">
+            <img src="./img/movie.gif" alt="영화" width="150vw"></img>
+          </div>
+          <div class="li_title">&nbsp;영화 또는 드라마 보기🎞️</div><br>
+          <div class="li_subtitle">&nbsp;공포 또는 로맨스 장르의 드라마나 영화를 보는것을 좋아하는데, <br>
+            &nbsp;좋아하는 영화는 <a style="color: royalblue; font-weight: bold;">'어바웃 타임'</a>이고 좋아하는 드라마는 <a
+              style="color: royalblue; font-weight: bold;">'뷰티 인사이드'</a>이다.</div><br><br>
+          <div class="l_img">
+            <img src="./img/travel.gif" alt="여행" width="150vw"></img>
+          </div>
+          <div class="li_title">&nbsp;여행가기✈️</div><br>
+          <div class="li_subtitle">&nbsp;새로운 문화를 접하며 생기는 설렘과<br>
+            &nbsp;지친 마음의 피로를 회복하는 기회와 좋은 추억들이 쌓이기 때문이다.</div><br><br>
+          <div class="l_img">
+            <img src="./img/firends.gif" alt="친구" width="150vw"></img>
+          </div>
+          <div class="li_title">&nbsp;친구들👩🏻‍🤝‍👩🏻</div><br>
+          <div class="li_subtitle">&nbsp;나와 친한 친구들과 함께있을때<br>
+            &nbsp;굳이 무언가를 하지않아고 같이 있는것만으로도 입가에 웃음이 진다.</div><br><br>
+          <div class="l_img">
+            <img src="./img/food.gif" alt="음식" width="150vw"></img>
+          </div>
+          <div class="li_title">&nbsp;맛있는 음식먹기🍴</div><br>
+          <div class="li_subtitle">&nbsp;매운것을 잘 먹는건 아니지만 <a style="color: orangered; font-weight: bold;">마라탕</a>과 <a
+              style="color: coral; font-weight: bold;">떡볶이</a>를 좋아하고<br>
+            &nbsp;디저트로는 <a style="color: hotpink; font-weight: bold;">아이스크림</a>과 <a
+              style="color: brown; font-weight: bold;">초콜렛</a> 같은것을 좋아한다.</div><br><br>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section>
+    <article id="want">
+      <div class="inner">
+        <div class="w_con">
+          <div class="w_title">I WANT TO BE</div>
+          <div class="w_sub">나는 이런 사람이 되고싶습니다.</div>
+          <div class="w_image"><img src="./img/mini.gif"></div>
+          <ul class="class_list">
+            <li class="class_card">
+              <div class="class_container"></div>
+              <div class="class_sub">one</div>
+              <div class="class_title">저는 결과보다 과정을 중요시 하는 사람이 되고싶습니다.</div>
+            </li>
+            <li class="class_card">
+              <div class="class_container"></div>
+              <div class="class_sub">two</div>
+              <div class="class_title">일의 우선순위를 잘 결정할 수 있는 사람이 되고싶습니다.</div>
+            </li>
+            <li class="class_card">
+              <div class="class_container"></div>
+              <div class="class_sub">three</div>
+              <div class="class_title">포기하지 않는사람이<br>되고싶습니다.</div>
+            </li>
+            <li class="class_card">
+              <div class="class_container"></div>
+              <div class="class_sub">four</div>
+              <div class="class_title">이루고 싶은꿈을 위해<br>노력하는 사람이<br>되고싶습니다.</div>
+            </li>
+          </ul>
+        </div>
+    </article>
+  </section>
+  <footer>
+    <div class="icon_end">
+      <a href="https://www.facebook.com/profile.php?id=100034710198110&mibextid=LQQJ4d" target="_blank"><img
+          src="./img/face.gif" width="60px"></a>
+      <a href="https://instagram.com/wnsgnl12_.xx?igshid=YmMyMTA2M2Y=" target="_blank"><img src="./img/insta.gif"
+          width="60px"></a>
+      <a href="./discord.html" target="_blank"><img src="./img/discord.gif" width="60px"></a>
+      <a href="https://www.notion.so/afcb301d91a0411d80a045b78b553753" target="_blank"><img src="./img/notion.gif" 
+        width="60px"></a>
+    </div>
+  </footer>
+</body>
+</html>

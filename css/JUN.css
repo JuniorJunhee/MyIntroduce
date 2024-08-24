@@ -1,0 +1,250 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0 auto;
+}
+a:link{
+  color: black;
+  text-decoration: none;
+}
+a:visited{
+  color: black;
+}
+a:active{
+  color: black;
+}
+header{
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000000;
+}
+.inner{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.header_con{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+.date{
+  color: skyblue;
+}
+.menu{
+  font-family: 'Poor Story', cursive;
+  font-size: 120%;
+}
+menu:hover{
+  cursor: pointer;
+}
+section{
+  width: 100%;
+  position: relative;
+  background-color: white;
+}
+.main{
+  height: 500px;
+  background-image: url('../img/jeju.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+.main_con{
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  opacity: 0.7;
+  z-index: 2;
+  margin-top: 60px;
+}
+.title_con{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 90px;
+  color: black;
+}
+.title{
+  font-size: 3vw;
+  font-weight: bold;
+  padding-bottom: 0.8rem;
+}
+.mess{
+  font-size: 2.2vw;
+}
+.intro{
+  width: 100%;
+  height: 200px;
+  font-size: 4vw;
+  text-align: center;
+  font-family: 'Poor Story', cursive;
+}
+.skill_con {
+  margin-top: 2rem;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 2rem;
+}
+#skill_atitle{
+  font-size: 3vw;
+  font-family: 'Poor Story', cursive;
+  font-weight: bold;
+}
+#skill_about{
+  font-size: 1.5vw;
+  font-family: 'Poor Story', cursive;
+  padding-bottom: 1rem;
+  color: gold;
+}
+table {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 100%;
+  border-spacing: 20px;
+  text-align: center;
+}
+
+thead th {
+  padding-bottom: 1rem;
+}
+
+tbody td {
+  vertical-align: top;
+}
+.f_style{
+  align-items: center;
+  padding-left: 20px;
+  font-size: 3.8vw;
+}
+#me_title{
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.9vw;
+  font-family: 'Poor Story', cursive;
+  font-weight: bold;
+}
+.u_cl{
+  list-style: none;
+}
+#me_sub{
+  flex-direction: column;
+  align-items: center;
+  font-size: 1vw;
+  font-family: 'Poor Story', cursive;
+}
+tr{
+  width: 200px;
+  white-space:nowrap;
+}
+.l_con{
+  width: 100%;
+  margin-top: 2rem;
+}
+.l_title{
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Poor Story', cursive;
+  font-weight: bold;
+}
+.l_img{
+  float: left;
+}
+.li_title{
+  font-size: 2vw;
+  font-family: 'Poor Story', cursive;
+  font-weight: bold;
+  display:inline-block;
+}
+.li_subtitle{
+  font-size: 1vw;
+  font-family: 'Poor Story', cursive;
+  display:inline-block;
+  padding-bottom: 1.5rem;
+}
+.w_con{
+  margin-top: 7rem;
+}
+.w_title{
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Poor Story', cursive;
+  font-weight: bold;
+}
+.w_sub{
+  text-align: center;
+  font-size: 1.3vw;
+  font-family: 'Poor Story', cursive;
+  color: gold;
+}
+.w_image{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  size: 50vw;
+  }
+.class_list{
+  display: flex;
+  list-style: none;
+  overflow: hidden;
+}
+  
+.class_card{
+  height: 100px;
+  width: 240px;
+  border: 1.5px solid skyblue;
+  border-radius: 8px;
+  margin-right: 30px;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.class_container{
+  width: 240vw;
+}
+.class_card:hover{
+  background-color: skyblue;
+  color: white;
+  cursor: pointer;
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+  font-style: italic;
+  font-weight: bold;
+}
+.class_sub{
+  padding-left: 10px; 
+  font-size: 0.8vw;
+  text-align: center;
+  align-items: center;
+  color: skyblue;
+  font-weight: bold;
+}
+.class_title{ 
+  padding-left: 10px; 
+  font-size: 1vw;
+  width: 95%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  align-items: center;
+}
+.icon_end{
+  font-size: 3.9vw;
+  text-align: center;
+}
+@media only screen and (min-width:1200px) {
+  .inner {
+    max-width:1200px;
+  }
+}
